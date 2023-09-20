@@ -1,0 +1,42 @@
+.policy {
+  border: 1px solid #dee0ea;
+  margin-top: 40px;
+}
+
+.policy .policy-list {
+  display: flex;
+  padding: 25px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.policy .policy-list .policy-item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.policy .policy-item i {
+  font-size: 50px;
+  display: flex;
+}
+
+.policy .policy-item .policy-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .policy .policy-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.policy .policy-item .policy-texts strong {
+  font-weight: 600;
+}
+
+.policy .policy-item .policy-texts span {
+  font-size: 12px;
+}

@@ -1,0 +1,19 @@
+.single-product .breadcrumb ul {
+  display: flex;
+  font-size: 14px;
+}
+
+.single-product .breadcrumb ul li:not(:first-child) {
+  margin-left: 5px;
+}
+
+.single-product .breadcrumb ul li:not(:last-child)::after {
+  content: "/";
+  color: #dee0ea;
+  margin-left: 5px;
+}
+
+.single-product .breadcrumb ul li a:hover {
+  color: #000;
+  text-decoration: underline;
+}

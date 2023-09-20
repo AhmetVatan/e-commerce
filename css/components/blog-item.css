@@ -1,0 +1,41 @@
+.blog-list .blog-image {
+  display: flex;
+  /* resimle alt taraf arasında boşluk vardı önüne geçmek için kullandım. */
+}
+
+.blog-list .blog-image img {
+  width: 100%;
+}
+
+.blog-item .blog-info {
+  padding: 30px 10px 25px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 8%);
+}
+
+.blog-item .blog-info-top {
+  font-size: 14px;
+  color: #bcbec7;
+  margin-bottom: 10px;
+}
+
+.blog-item .blog-info-center a {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.blog-item .blog-info-bottom a {
+  font-size: 14px;
+  border-bottom: 1px solid;
+  padding-bottom: 4px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: 0.2s ease color;
+}
+
+.blog-item .blog-info-bottom a:hover {
+  color: #1367ef;
+}
